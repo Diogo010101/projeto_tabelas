@@ -1,0 +1,52 @@
+table{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+
+table > caption{
+    background-color: rgb(22, 46, 88);
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+
+}
+
+th, td{
+    padding: 5px;
+    border: solid 1px black;
+    
+
+}
+
+.emblemas{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.col_resultados{
+    background-color: rgb(49, 101, 190);
+}
+
+td{
+    text-align: center;
+    
+}
+
+.td_clubes{
+    text-align: start;
+    vertical-align: middle;
+    padding: 5px 5px;
+}
+
+
+#aside_tabelas {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 500px;
+    padding: 5px;
+
+}
