@@ -87,7 +87,7 @@ main{
     min-height: 250px;
     box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.233);
     padding: 5px;
-    background-image: url('/img/proximos_jogos.jpg');
+    background-image: url('../img/proximos_jogos.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
