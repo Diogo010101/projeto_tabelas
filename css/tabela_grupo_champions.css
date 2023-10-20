@@ -50,3 +50,23 @@ td{
     padding: 5px;
 
 }
+
+.tabela_flex{
+    overflow-x: auto;
+}
+
+
+#secao_tabela_liga table thead {
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+#secao_tabela_liga > table {
+    position: relative;
+}
+
+#secao_tabela_liga table thead tr th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(75, 75, 75);
+}

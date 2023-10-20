@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <script defer src="./js/contatovalidacao.js"></script>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1>A logo do site vai aqui</h1>
+        </div>
+        <nav id="nav_principal">
+            <a href="./index.html">Home</a>
+            <a href="#">Artigos</a>
+            <a href="#">Sala de Troféus</a>
+            <a href="#">Contato</a>
+        </nav>
+
+        <nav id="nav_login">
+            <a href="#">Entrar</a>
+            <a href="#">Cadastrar</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="formulario_contato">
+            
+            <form id="formulario" action="#" method="POST" autocomplete="on">
+                <h1>Entre em contato conosco</h1>
+
+                <div>
+                    <label for="idnome">Nome</label>
+                    <input type="text" name="nome" id="idnome" autocomplete="username" required minlength="4" maxlength="25">
+                </div>
+
+                <div>
+                    <label for="idtelefone">Celular</label>
+                    <input type="text" name="telefone" id="idtelefone" autocomplete="tel" placeholder="EX: 11987643210" maxlength="11">
+                    <span id="idvalidatell"></span>
+                </div>
+
+                <div>
+                    <label for="idemail">Email</label>
+                    <input type="email" name="email" id="idemail" autocomplete="email" required>
+                </div>
+
+
+
+                <div>
+                    <textarea name="mensagem" id="idmensagem" cols="40" rows="13"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+
+            <div class="imgformulario">
+                <img src="./img/forminterno.jpg" alt="">
+            </div>
+        </section>
+        
+
+
+    </main>
+    <footer>
+        <div class="rodape_menu">
+            <div>
+                <h1>Sobre</h1>
+                <p>Quem Somos</p>
+                <p>Fale Conosco</p>
+                <p>Anuncie</p>
+            </div>
+            <div>
+                <h1>ligas</h1>
+                <p>Inscreva Seu time</p>
+                <p>Nossas Ligas</p>
+                <p>Sala de Troféus</p>
+            </div>
+            <div>
+                <h1>Redes Sociais</h1>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Youtube</p>
+                <p>Instagram</p>
+            </div>
+        </div>
+        <p>&copy; 2023 Site criado por Diogo Jose da Silva</p>
+
+    </footer>
+
+</body>
+
+</html>
