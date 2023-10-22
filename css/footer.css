@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+
+}
+
+.rodape_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*Fim Rodapé*/

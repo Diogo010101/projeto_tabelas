@@ -1,0 +1,68 @@
+:root {
+    --cor01: #84BF93;
+    --cor02: #F2E205;
+    --cor03: #734B34;
+    --cor04: #F24C3D;
+    --cor05: #F2695C;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+/*Header*/
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: var(--cor01);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
+    margin-bottom: 5px;
+    padding-top: 10px;
+
+}
+
+#logo {
+    color: white;
+}
+
+
+#logo h1 {
+    margin: 0;
+}
+
+
+#nav_principal>a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+
+#nav_principal>a:hover {
+    text-decoration: underline;
+
+
+}
+
+
+#nav_login a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+#nav_login a:hover {
+    text-decoration: underline;
+}
+
+/*Fim Header*/

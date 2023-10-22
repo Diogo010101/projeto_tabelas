@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(180deg, white, lightgray, darkgray);
+}
+
+main{
+    max-width: 900px;
+    min-width: 350px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+h2, p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.secao_artigos_internos picture{
+    display: flex;
+    justify-content: center;
+}
+
+.secao_artigos_internos picture img{
+    max-width: 100%;
+    min-width: 300px;
+
+
+}
+
+#imagens_internas_post{
+    max-width: 100%;
+    min-width: 300px;
+}
