@@ -54,15 +54,4 @@ header {
 }
 
 
-#nav_login a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-
-}
-
-#nav_login a:hover {
-    text-decoration: underline;
-}
-
 /*Fim Header*/
